@@ -9,9 +9,15 @@
     <div class="container">
       <canvas ref="canvas" class="full-screen-canvas"></canvas>
       <div class="controller">
-        <circle-button v-on:click.native="run">play_arrow</circle-button>
-        <circle-button v-on:click.native="restart">replay</circle-button>
-        <circle-button v-on:click.native="toggleModal(true)">settings</circle-button>
+        <circle-button v-on:click.native="run">
+          <span class="material-icons">play_arrow</span>
+        </circle-button>
+        <circle-button v-on:click.native="restart">
+          <span class="material-icons">replay</span>
+        </circle-button>
+        <circle-button v-on:click.native="toggleModal(true)">
+          <span class="material-icons">settings</span>
+        </circle-button>
       </div>
       <transition name="fade">
         <base-modal v-if="modal">

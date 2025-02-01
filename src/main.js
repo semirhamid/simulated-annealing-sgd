@@ -7,6 +7,8 @@ import BaseModal from './components/modal.vue'
 import './assets/css/normalize.css'
 import './assets/css/skeleton.css'
 import './assets/css/master.css'
+import '@fortawesome/fontawesome-free/css/all.css'
+import 'material-icons/iconfont/material-icons.css'
 
 Vue.config.productionTip = false
 Vue.component('circle-button', CircleButton)
