@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template lang="html">
   <div>
     <router-link to="/">

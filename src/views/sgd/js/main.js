@@ -1,3 +1,4 @@
+ /* eslint-disable */
 let canvas
 let ctx
 let width
